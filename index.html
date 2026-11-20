@@ -1,0 +1,1236 @@
+[200~index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Food Fleet Website</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+    /* Enhanced Styling */
+    body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+    }
+    h1, h2, h3 {
+        font-family: "Amatic SC", sans-serif;
+        color: #f46773;
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+        text-align: center;
+    }
+    .btn-get-started {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 12px 24px;
+        background-color: #ee5e1b;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background 0.3s;
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .btn-get-started:hover {
+        background-color: #c1272d;
+    }
+    /* Order Form Styling */
+    .order-form {
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .order-form input, .order-form textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .quantity-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 200px;
+        margin: 0 auto 15px;
+    }
+    .quantity-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        border: none;
+        background-color: #e63946;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .quantity-btn:hover {
+        background-color: #c1272d;
+    }
+    .order-form button {
+        background-color: #e63946;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        display: block;
+        width: 100%;
+    }
+    .order-form button:hover {
+        background-color: #c1272d;
+    }
+    /* Navigation Bar */
+    #header {
+        background: #e63946;
+        padding: 15px 0;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    #navmenu ul li a {
+        color: white;
+        font-weight: 600;
+        transition: color 0.3s;
+    }
+    #navmenu ul li a:hover {
+        color: #ffd166;
+    }
+</style>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="1.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Food Fleet</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#catering">Catering Services</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#Achievements">Achievements</a></li>
+         
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="1.html">Place Order</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-center justify-content-lg-between">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h1>
+            <p data-aos="fade-up" data-aos-delay="100">The epitome of food delivery services</p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#book-a-table" class="btn-get-started">Place Order</a>
+             
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us<br></h2>
+        <p><span>Learn More</span> <span class="description-title">About Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about1.jpg" class="img-fluid mb-4" alt="">
+            <div class="Place order">
+              <h3>Place order</h3>
+              <p>+91 4350 9711</p>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+            <h1>About Us</h1>
+        <h2>Delivering Delight, One Meal at a Time</h2>
+        <p class="text-justify">Welcome to <span class="highlight">Food Fleet</span>, your go-to food delivery service that brings your favorite meals straight to your doorstep!</p>
+       
+        <h2>Who We Are</h2>
+        <p class="text-justify">At Food Fleet, we are passionate about revolutionizing the way food reaches you. Our dynamic network of cloud kitchen and dedicated delivery partners ensures fresh, hot, and delicious meals anytime, anywhere.</p>
+       
+        <h2>What We Offer</h2>
+        <ul>
+         
+            <li><span class="highlight">Fast & Reliable Delivery</span> – Get your food fresh and on time.</li>
+            <li><span class="highlight">Seamless Ordering Experience</span> – Easy-to-use platform & app.</li>
+            <li><span class="highlight">Quality & Hygiene First</span> – We ensure the highest safety standards.</li>
+        </ul>
+       
+       
+        <p style="text-align: center;"><strong>🚀 Order now and experience the future of food delivery!</strong></p>
+        <div class="container mt-4">
+          <div class="row align-items-center">
+              <div class="col-md-5">
+                 
+              </div>
+              <div class="col-md-7">
+                  <h2><center>Welcome to Food Fleet</center></h2>
+                 
+                 
+              </div>
+          </div>
+      </div>
+     
+      <style>
+          .text-justify {
+              text-align: justify;
+          }
+      </style>
+     
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section light-background">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Why Choose Food Fleet</h3>
+              <p>
+                Food Fleet is your ultimate destination for delicious, hygienic, and affordable meals, delivered right to your doorstep. Whether you’re craving a hearty South Indian breakfast like idly, dosa, or pongal, or a fulfilling North and South Indian lunch and dinner, we have got you covered. Our meals are prepared with authentic recipes, ensuring that you experience homely flavors with every bite. We use only fresh and high-quality ingredients, making our food not just tasty but also healthy and nutritious
+              </p>
+              <div class="text-center">
+                <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                 
+                  <h4> Catering</h4>
+                  <p>We provide customized catering services for weddings, corporate events, and private parties with a variety of delicious meals.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                 
+                  <h4>Food Delivery Service</h4>
+                  <p>Enjoy fresh, hot, and hygienic meals delivered straight to your doorstep, ensuring quality and taste in every bite</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                 
+                  <h4> Fast Delivery </h4>
+                  <p>Our efficient delivery system ensures your food arrives on time, hot, and fresh, so you never have to wait too long!
+
+                  </p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section dark-background">
+
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Menu</h2>
+        <p><span>Check Our</span> <span class="description-title">Healthy & Tasty Menu</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Starters</h4>
+
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Breakfast</h4>
+            </a><!-- End tab nav item -->
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>Lunch</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+              <h4>Dinner</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Starters</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4> Grilled Chicken Steak</h4>
+                <p class="ingredients">
+                 chicken,olives,lentils
+                </p>
+                <p class="price">
+                  Rs.399
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Spring Rolls</h4>
+                <p class="ingredients">
+                 Meat,flour,veggies
+                </p>
+                <p class="price">
+                  Rs.310
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Spaghetti Carbonara</h4>
+                <p class="ingredients">
+                soy sauce,Eggs,Spaghetti pasta
+                </p>
+                <p class="price">
+                  Rs.256
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Broccoli Salad</h4>
+                <p class="ingredients">
+                 sesame oil,black pepper,ginger
+                </p>
+                <p class="price">
+                  Rs.119
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chocolate misu cake</h4>
+                <p class="ingredients">
+                  dark Chocolate,condensed milk,sugar
+                </p>
+                <p class="price">
+                  Rs.319
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>All mix Platter</h4>
+                <p class="ingredients">
+                  veggies,lentils,mint
+                </p>
+                <p class="price">
+                 Rs.210
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Starter Menu Content -->
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+       
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Breakfast</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/idli.png" class="glightbox"><img src="assets/img/menu/idli.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Idly</h4>
+               
+                <p class="price">
+                  Rs.30
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/dosa.png" class="glightbox"><img src="assets/img/menu/dosa.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Dosa</h4>
+               
+                <p class="price">
+                 Rs.60
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/vada.png" class="glightbox"><img src="assets/img/menu/vada.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Vada</h4>
+               
+                <p class="price">
+             Rs.40
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/poori.png" class="glightbox"><img src="assets/img/menu/poori.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Poori</h4>
+               
+                <p class="price">
+                  Rs.55
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/upma.png" class="glightbox"><img src="assets/img/menu/upma.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Upma</h4>
+               
+                <p class="price">
+                  Rs.40
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/rava.png" class="glightbox"><img src="assets/img/menu/rava.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Rava Dosa</h4>
+               
+                <p class="price">
+                  Rs.45
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Breakfast Menu Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Lunch</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/meals.jpg" class="glightbox"><img src="assets/img/menu/meals.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4> Veg Meals</h4>
+             
+                <p class="price">
+                Rs.120
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/biryani.png" class="glightbox"><img src="assets/img/menu/biryani.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chicken Biryani</h4>
+             
+                <p class="price">
+                  RS.550
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/panner.png" class="glightbox"><img src="assets/img/menu/panner.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Paneer Biryani</h4>
+               
+                <p class="price">
+                  RS.320
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/mandi.png" class="glightbox"><img src="assets/img/menu/mandi.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Mandi</h4>
+               
+                <p class="price">
+                 RS.677
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/non.png" class="glightbox"><img src="assets/img/menu/non.png" class="menu-img img-fluid" alt=""></a>
+                <h4>NON-Veg Combo</h4>
+               
+                <p class="price">
+                 RS.435
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/mac.png" class="glightbox"><img src="assets/img/menu/mac.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Manchurian biryani</h4>
+               
+                <p class="price">
+                  Rs.367
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Lunch Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Dinner</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/naan.png" class="glightbox"><img src="assets/img/menu/naan.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Butter Paneer with Naan
+
+                </h4>
+               
+                <p class="price">
+                  RS.87
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/vegbir.png" class="glightbox"><img src="assets/img/menu/vegbir.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Biryani</h4>
+               
+                <p class="price">
+                  Rs.327
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/Jeera.png" class="glightbox"><img src="assets/img/menu/Jeera.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Jeera Rice</h4>
+               
+                <p class="price">
+                  RS.224
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/sambar.png" class="glightbox"><img src="assets/img/menu/sambar.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Sambar Rice</h4>
+               
+                <p class="price">
+                  RS.127
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/curd.png" class="glightbox"><img src="assets/img/menu/curd.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Curd Rice</h4>
+               
+                <p class="price">
+                  Rs.112
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/cha.png" class="glightbox"><img src="assets/img/menu/cha.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chapati with Chicken curry</h4>
+               
+                <p class="price">
+                  Rs.190
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TESTIMONIALS</h2>
+        <p>What Are They <span class="description-title">Saying About Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>I ordered a South Indian thali for lunch, and I was amazed at the variety! From sambar to crispy papad, everything tasted authentic. The packaging was neat, and the food was hot. Definitely my go-to lunch option!</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Priya </h3>
+                      <h4>Home Maker</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>I love their biryani and North Indian meals for dinner. The portion sizes are great, and the flavors are just right—not too spicy, not too bland. Also, the delivery is always on time. Best online food service</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Rahul </h3>
+                      <h4>Student</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+               
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Tried their masala dosa and pongal for breakfast—it was heavenly! The ghee-roasted dosa was crispy, and the sambar had the perfect balance of flavors. Food Fleet never disappoints!</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Ram Mohan</h3>
+                      <h4>Business Man</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                 
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Food Fleet has made my mornings so much easier! Their idly and dosa are always fresh, soft, and delicious. The coconut chutney is just perfect. It feels like a home-cooked meal every time. Highly recommended!</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Amit Verma</h3>
+                      <h4>Software Engineer </h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                   
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+     <!-- Catering Services Section -->
+     <section id="catering" class="catering section">
+        <div class="container" data-aos="fade-up">
+            <h2>Catering Services</h2>
+            <p>Exquisite culinary experiences tailored to your special occasions. Let us serve you with elegance and flavor.</p>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="assets/img/corporate.jpg" class="img-fluid mb-3" alt="Corporate Events Catering">
+                    <h3>Corporate Events</h3>
+                    <p>Perfectly curated menus for business meetings, conferences, and office parties, ensuring a professional dining experience.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="assets/img/wedding.jpg" class="img-fluid mb-3" alt="Wedding Catering">
+                    <h3>Weddings</h3>
+                    <p>Elegant and delightful catering to make your special day unforgettable with premium quality and presentation.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="assets/img/private.jpg" class="img-fluid mb-3" alt="Private Party Catering">
+                    <h3>Private Parties</h3>
+                    <p>Custom-tailored menus for birthdays, anniversaries, and celebrations, crafted to suit your unique preferences.</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <h3 class="mb-3">Book Your Catering Experience Today!</h3>
+                <p>Our expert chefs and dedicated staff are ready to provide an exceptional dining experience. Contact us to plan your event with delicious food and flawless service.</p>
+                <a href="#contact" class="btn-get-started">Book Catering</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Catering Services Section -->
+
+    <!-- Chefs Section -->
+    <section id="chefs" class="chefs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>chefs</h2>
+        <p><span>Our</span> <span class="description-title">Proffesional Chefs<br></span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sanjay Kumar</h4>
+                <span>Master Chef</span>
+                <p>With over 20 years of experience, Chef White is a master of gourmet cuisine, blending flavors to perfection.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Chetty</h4>
+                <span>Patissier</span>
+                <p>Known for her artistic approach to food, Chef Sarah specializes in pastries and exquisite desserts that delight the senses.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Paul Anderson</h4>
+                <span>Cook</span>
+                <p>Chef Anderson’s expertise in international cuisines ensures that every dish is authentic, flavorful, and perfectly crafted.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Chefs Section -->
+    <script defer src="assets/js/order.js"></script>
+    <main class="main">
+      <section id="order" class="order section">
+          <div class="container" data-aos="fade-up">
+              <h2>Order Your Favorite Food Online</h2>
+              <p>Enjoy delicious meals delivered right to your doorstep with just a few clicks.</p>
+              <div class="order-form">
+                  <form id="foodOrderForm">
+                      <input type="text" id="name" name="name" placeholder="Your Name" required>
+                      <input type="email" id="email" name="email" placeholder="Your Email" required>
+                      <input type="text" id="phone" name="phone" placeholder="Your Phone" required>
+                      <input type="text" id="food-item" name="food-item" placeholder="Food Item Name" required>
+                      <div class="quantity-container">
+                          <button type="button" class="quantity-btn" onclick="decreaseQuantity()">-</button>
+                          <input type="text" id="quantity" name="quantity" value="1" style="width: 50px; text-align: center;" readonly>
+                          <button type="button" class="quantity-btn" onclick="increaseQuantity()">+</button>
+                      </div>
+                      <textarea id="address" name="address" rows="3" placeholder="Delivery Address" required></textarea>
+                      <button type="submit">Place Order</button>
+                  </form>
+              </div>
+          </div>
+      </section>
+    <!-- End Online Order Section -->
+</main>
+
+<footer id="footer" class="footer">
+    <div class="container">
+     
+</footer>
+
+<script>
+    function increaseQuantity() {
+        let quantity = document.getElementById('quantity');
+        quantity.value = parseInt(quantity.value) + 1;
+    }
+    function decreaseQuantity() {
+        let quantity = document.getElementById('quantity');
+        if (parseInt(quantity.value) > 1) {
+            quantity.value = parseInt(quantity.value) - 1;
+        }
+    }
+</script>
+</main>
+
+<footer id="footer" class="footer">
+    <div class="container">
+     
+    </div>
+</footer>
+
+<script>
+    function increaseQuantity() {
+        let quantity = document.getElementById('quantity');
+        quantity.value = parseInt(quantity.value) + 1;
+    }
+    function decreaseQuantity() {
+        let quantity = document.getElementById('quantity');
+        if (parseInt(quantity.value) > 1) {
+            quantity.value = parseInt(quantity.value) - 1;
+        }
+    }
+</script>
+    <!-- Gallery Section -->
+    <section id="Achievements" class="gallery section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2><italic>Certifications</italic></h2>
+        <p><span>Check</span> <span class="description-title">Our Acheivements</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/food.jpg"><img src="assets/img/gallery/food.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/food2.jpg"><img src="assets/img/gallery/food2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/food3.jpg"><img src="assets/img/gallery/food3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/food4.jpg"><img src="assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/food5.jpg"><img src="assets/img/gallery/food5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/food6.jpg"><img src="assets/img/gallery/food6.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="mb-5">
+          <section id="location" class="location section" style="padding: 40px 0;">
+            <div style="max-width: 100%; margin: 0 auto;">
+              <h2 style="text-align: center;">Our Location</h2>
+              <p style="text-align: center;">Find us at CVR College of Engineering</p>
+              <div style="width: 100%;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.4660030067034!2d78.59466117462293!3d17.196168308286715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1744367559319!5m2!1sen!2sin"
+                  width="100%" height="450" style="border:0; display: block;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
+          </section>
+         
+       
+         
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Hyderabad, Ranga  Reddy-500070,Telangana</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+91 4350 9711</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>foodfleet@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+              <i class="icon bi bi-clock flex-shrink-0"></i>
+              <div>
+                <h2> Services</h2>
+                <p> 7AM to 12AM</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Feedback</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Address</h4>
+            <p>Hyderabad</p>
+            <p>500070,Ranga Reddy</p>
+            <p></p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>Phone:</strong> <span>+91 4350 9711</span><br>
+              <strong>Email:</strong> <span>foodfleet@gmail.com</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Services</h4>
+            <p>7AM to 12 AM</p>
+           
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+         
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p><strong class="px-1 sitename"></strong> <span>  <p>© 2025 Food Fleet. All Rights Reserved.</p></span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+       
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
